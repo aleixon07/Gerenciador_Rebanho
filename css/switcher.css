@@ -1,0 +1,127 @@
+﻿/* ================================================================== */
+/* CSS Style Switcher By FIFO THEMES
+====================================================================== */
+
+	#style-switcher h3 {  
+		color: #888888;
+		font-family: "Open Sans",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		font-weight: 600;
+		margin: 10px 0 10px 1px;
+	}
+	
+	#style-switcher {
+		background-color: #fff;
+		width: 205px;
+		position:fixed;
+		top: 160px;
+		z-index: 99999;
+		border-radius: 0 0 3px 0;
+		left: -206px;
+		border: 1px solid #e4e4e4;
+		border-left: 0;
+		border-top: 0;
+		box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+		outline: none;
+	}
+	
+	#style-switcher div {
+		padding: 3px 18px 5px 18px;
+	}
+	
+	#style-switcher h2 {
+		background-color: #777;
+		color: #fff;
+		outline: none;
+		font-weight: bold;
+		font-size: 14px;
+		padding: 0 0 0 20px;
+		margin:0;
+		line-height:40px;
+		font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	}
+	
+	
+	#style-switcher h2 a {
+		
+		background-color: #555;
+		display: block;
+		outline: none;
+		height: 40px;
+		position: absolute;
+		right: -43px;
+		font-size:26px;
+		text-align:center;
+		color:#fff;
+		top: 0;
+		width: 43px;
+		text-decoration:none;
+		border-radius: 0 3px 3px 0;
+	}	
+	.colors {
+		list-style:none;
+		margin: 0 0px 10px 0;
+		overflow: hidden;
+		padding-left: 0;
+	}
+	
+	.colors li {
+		float:left;
+		margin: 4px 2px 0 2px;
+	}
+	
+	.colors li a {
+		display: block;
+		width: 29px;
+		height: 29px;
+		cursor: pointer;
+		border-radius: 1px;
+	} 
+	
+	.layout-style select, .header-style select, 
+	.footer-style select, .header-color input {
+		width: 164px;
+		padding: 2px 5px;
+		color: #888;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 13px;
+		margin: 2px 0 2px 2px;
+	}
+	
+	.header-color .sp-replacer  {
+		padding:4px 6px !important;
+	}
+	
+	.header-color .sp-replacer .sp-dd, .header-color .sp-replacer .sp-preview, div.header-color {
+		padding:0px 1px !important;
+	}
+	
+	.layout-style, .header-style, .header-color
+	.footer-style { padding: 0 !important; }
+	
+	.blue { background: #2eaef0; }
+	.green { background: #82dc23; }
+	.orange {background: #FA6900; }
+	.purple { background: #b71db7; }
+	.red { background: #d12d32; }
+	.magenta { background: #ec008c; }
+	.brown { background: #c69c6d; }
+	.gray { background: #555555; }
+	.golden { background: #DAA520; }
+	.teal { background: #008080; }
+
+	.bg1 { background-image: url("../img/patterns/whitey.html"); }
+	.bg2 { background-image: url("../img/patterns/retina_wood.html"); }
+	.bg3 { background-image: url("../img/patterns/subtle_grunge.html"); }
+	.bg4 { background-image: url("../img/patterns/denim.html"); }
+	.bg5 { background-image: url("../img/patterns/lghtmesh.html"); }
+	.bg6 { background-image: url("../img/patterns/fabrics_gray.html"); }
+	.bg7 { background-image: url("../img/patterns/tileable_wood.html"); }
+	.bg8 { background-image: url("../img/patterns/dark_wood.html"); }
+	.bg9 { background-image: url("../img/patterns/wall.html"); }
+	.bg10 { background-image: url("../img/patterns/grey_wash.html"); }
+	
+	
+	@media only screen and (max-width: 1023px) { #style-switcher { display: none; } }
+	   
